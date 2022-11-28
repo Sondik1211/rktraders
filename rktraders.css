@@ -1,0 +1,573 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header */
+header{
+border: 3px solid black;
+width: 100vw;
+height: 10vw;
+text-align: center;
+background-color: bisque;
+background-image: url("welcome.png");
+background-repeat: no-repeat;
+background-position: top left;
+background-size:   18vw 8vw;
+/* position: fixed; */
+}
+
+header h1 {
+font-size: 4.8vw;
+font-weight: bold;
+text-shadow:  2px 2px 5px orange;
+}
+header h3 {
+font-size: 1.2vw;
+text-decoration: underline;
+text-shadow: 1px 1px yellow;
+}
+
+.kalash {
+width: 11vw;
+height: 9.5vw;
+/* border: 2px solid blue; */
+position: absolute;
+right: 7vw;
+top: 0.2vw;
+background-image: url("kalash1.png");
+background-repeat: no-repeat;
+background-size: 11vw 10vw;
+}
+
+
+/* Navbar */
+ul {
+width: 100vw;
+/* height: 4vw; */
+background-color: black;
+display: flex;
+color: white;
+list-style: none;
+}
+li {
+margin: 0.5vw 1vw;
+padding: 1vw;
+background-color: red;
+text-align: center;
+border-radius: 15px;
+}
+li:hover {
+background-color: white;
+color: black;
+}
+
+
+/* yummfeast */
+#yumm {
+    width: 100vw;
+}
+.yummfeast {
+    background-color: rgb(227, 155, 60);
+}
+
+
+/* About Shop */
+article {
+    height: 40vw;
+    border: 2px solid black;
+    background-color: rgb(227, 155, 60);
+    text-align: center;
+}
+article h3 {
+    font-size: 3vw;
+    text-decoration: underline;
+    font-style: oblique;
+    text-shadow: 2px 2px 5px orange;
+    margin-top: 10px;
+}
+.shop {
+    display: flex;
+    margin-top: 25px;
+}
+
+#bovita {
+    width: 25vw;
+    height: 25vw;
+    margin-left: 10vw;
+    /* border: 2px solid red; */
+}
+#Voice {
+    text-align: justify;
+    font-size: 2vw;
+    width: 50vw;
+    margin-left: 10vw;
+    /* border: 2px solid red; */
+    line-height: 3.5vw;
+
+}
+
+
+
+/* Our products */
+.products {
+    width: 100vw;
+    background-color: rgb(227, 155, 60);
+    height: 35vw;
+    text-align: center;
+    /* display: flex; */
+}
+div h3 {
+    font-size: 3vw;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px rgb(194, 92, 24);
+}
+.image {
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+}
+.box {
+    width: 25vw;
+    height: 20vw;
+    border: 2px solid blue;
+    margin: 10px;
+    
+}
+
+.box2 {
+    width: 15vw;
+    height: 20vw;
+    /* border: 2px solid blue; */
+    margin: 10px 100px;
+    /* background-color: red; */
+    background-image: url("takatak.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.box1 {
+    width: 17vw;
+    height: 20vw;
+    /* border: 2px solid blue; */
+    margin: 10px;
+    /* background-color: red; */
+    background-image: url("speedo1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.box3 {
+    width: 20vw;
+    height: 20vw;
+    /* border: 2px solid blue; */
+    margin: 10px;
+    /* background-color: red; */
+    background-image: url("nariyalpani.png");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    margin-left: -65px;
+}
+.box4 {
+    width: 16vw;
+    height: 20vw;
+    /* border: 2px solid blue; */
+    margin: 10px;
+    /* background-color: red; */
+    background-image: url("hotcake.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
+section {
+    width: 100vw;
+    height: 20vw;
+    border: 2px solid black;
+    background-color: rgb(227, 155, 60);
+    text-align: center;
+    background-image: url(orderback.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.order {
+    text-align: justify;
+    margin-left: 10vw;
+    margin-top: 1vw;
+    font-size: 1.6vw;
+  }
+section h3 {
+    font-size: 3vw;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px rgb(229, 75, 75);
+}
+.orderlink {
+    font-size: 1.6vw;
+    margin-left: -67vw;
+    margin-top: 8vw;
+  }
+
+
+  /* contact */
+  .contact {
+    width: 100vw;
+    height: 25vw;
+    border: 2px solid black;
+    padding-top: 2vw;
+    padding-left: 10vw;
+    background-color: rgb(227, 155, 60);
+    background-image: url(backcontact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h1 {
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px rgb(255, 255, 0);
+    text-align: center;
+    font-size: 3vw;
+    margin-left: -10vw;
+  }
+  h2 {
+    margin-top: 2vw;
+  }
+  .detail {
+    display: flex;
+    margin-left: -5vw;
+    margin-top: 4vw;
+  }
+  
+  .mob1 {
+    width: 30vw;
+    height: 5vw;
+    /* border: 2px solid black; */
+    margin: 1vw;
+    display: flex;
+  }
+  #mobno {
+    font-size: 2vw;
+    margin-top: 1vw;
+    color: rgb(84, 23, 23);
+  }
+  .mob2 {
+    width: 30vw;
+    height: 5vw;
+    /* border: 2px solid black; */
+    margin: 1vw;
+      margin-left: 1vw;
+    display: flex;
+    margin-left: -5vw;
+  }
+  #address {
+    font-size: 1.5vw;
+    margin-top: 4px;
+    color: rgb(84, 23, 23);
+  }
+  .mob3 {
+    width: 30vw;
+    height: 5vw;
+    /* border: 2px solid black; */
+    margin: 1vw;
+    display: flex;
+    margin-left: 11vw;
+  }
+  #email {
+    font-size: 2vw;
+    margin-top: 1.5vw;
+    color: rgb(84, 23, 23);
+  }
+  .enquiry {
+    width: 10vw;
+    border: 2px solid black;
+    text-align: center;
+    margin-right: 5vw;
+    height: 2vw;
+    font-size: 1.5vw;
+    float: right;
+    margin-top: -2vw;
+    color: #0404ec;
+    background-color: bisque;
+  }
+
+
+  /* Greeting */
+  .greet {
+    width: 100vw;
+    height: 6vw;
+    background-color: bisque;
+    text-align: center;
+    margin-top: -20px;
+    border: 2px solid black;
+  }
+  #thank {
+    font-size: 4vw;
+    margin-top: 1vw;
+    font-style: oblique;
+    text-shadow: 2px 2px 5px orange;
+    text-decoration: underline;
+  }
+  footer {
+    width: 100vw;
+    height: 3vw;
+    background-color: rgb(248, 150, 3);
+    padding: 10px;
+  }
+  .foot {
+    display: flex;
+    text-align: center;
+    /* margin-top: 5px; */
+  }
+  .foot2 {
+    /* border: 1px solid black ; */
+    margin-left: 50vw;
+    font-size: 1vw;
+  }
+  .foot1 {
+    /* border: 1px solid black ; */
+    margin-left: 5vw;
+    font-size: 1vw;
+  }
+
+
+
+
+
+/* media query */
+@media only screen and (max-width:450px){
+
+    /* header */
+header {
+height: 31vw;
+background-position: bottom left;
+background-size: 21vw 21vw;
+}
+header h1 {
+  font-size: 7vw;
+  margin-left: 1vw;
+}
+header h3 {
+    font-size: 4.2vw;
+}
+.kalash {
+position: absolute;
+/* bottom: 0.2vw; */
+top: 12vw;
+width: 20vw;
+height: 27vw;
+background-size: 20vw 17vw;
+}
+
+
+/* Navbar */
+ul {
+height: 9vw;
+}
+
+
+/* yummfeast */
+#yumm {
+    height: 50vw;
+  }
+
+
+/* Our Products */
+.products {
+    height: 250vw;
+}
+.image {
+    margin-top: 4px;
+    flex-direction: column;
+}
+.box1 {
+    width: 45vw;
+    height: 50vw;
+    margin: 10px;
+    margin-left: 105px;
+  }
+  
+  div h3 {
+    font-size: 6vw;
+  }
+  .box2 {
+        width: 45vw;
+        height: 55vw;
+        margin-left: 103px;
+  }
+  .box3 {
+    width: 50vw;
+    height: 61vw;
+    margin: 10px;
+      margin-left: 10px;
+    margin-left: 75px;
+  }
+  .box4 {
+    width: 40vw;
+    height: 50vw;
+    margin: 10px;
+    margin-left: 115px;
+  }
+  article {
+    height: 70vw;
+  }
+  article h3 {
+    font-size: 6vw;
+  }
+  .shop {
+    margin-top: 10px;
+  }
+  #Voice {
+    font-size: 3vw;
+  }
+  #bovita {
+    width: 30vw;
+    height: 35vw;
+    margin-left: 6vw;
+  }
+  section {
+    height: 25vw;
+  }
+  section h3 {
+    font-size: 5vw;
+  }
+  .order {
+    margin-left: 1vw;
+    margin-top: 1vw;
+    font-size: 3.2vw;
+  }
+  .orderlink {
+    font-size: 3vw;
+    margin-left: -83vw;
+    margin-top: 4vw;
+    float: right;
+    margin-right: 5vw;
+  }
+  .contact {
+    height: 50vw;
+  }
+  h1 {
+    font-size: 5vw;
+  }
+  h2 {
+    font-size: 4vw;
+  }
+  .enquiry {
+    width: 20vw;
+    margin-right: 5vw;
+    height: 5vw;
+    font-size: 3.5vw;
+    float: right;
+    margin-top: -6vw;
+  }
+  .detail {
+    flex-direction: column;
+  }
+  .mob1 {
+    margin-left: 25vw;
+  }
+  #mobno {
+    font-size: 3.3vw;
+  }
+  .mob2 {
+    margin-left: 24vw;
+  }
+  #address {
+    font-size: 3vw;
+    margin-top: -2px;
+  }
+  .mob3 {
+    margin-left: 25vw;
+    margin-top: 5vw;
+  }
+  #email {
+    font-size: 3.5vw;
+  }
+  .greet {
+    height: 15vw;
+  }
+  #thank {
+    font-size: 9vw;
+  }
+  footer {
+    height: 15vw;
+  }
+  .foot {
+    flex-direction: column;
+  }
+  .foot1 {
+    font-size: 3vw;
+  }
+  .foot2 {
+    margin-left: 5vw;
+    font-size: 2.5vw;
+    margin-top: 2vw;
+  }
+}
+
+
+
+
+
+@media only screen and (max-width: 1007px) and (min-width: 450px) {
+
+    /* Navbar */
+ ul {
+    height: 5vw;
+}
+
+/* Our products */
+.image {
+    margin-top: 30px;
+}
+.products {
+    height: 35vw;
+}
+div h3 {
+    font-size: 4vw;
+}
+article {
+    height: 45vw;
+}
+article h3 {
+    font-size: 4vw;
+}
+.shop {
+    margin-top: 15px;
+}
+#Voice {
+  font-size: 2vw;
+  line-height: 3vw;
+}
+.order {
+  text-align: justify;
+  margin-left: 2vw;
+  margin-top: 2vw;
+  font-size: 2vw;
+}
+.orderlink {
+  font-size: 2.5vw;
+  margin-left: 75vw;
+  margin-top: 7vw;
+}
+.contact {
+  height: 30vw;
+  padding-top: 1vw;
+}
+.enquiry {
+  width: 20vw;
+  margin-right: 5vw;
+  height: 4vw;
+  font-size: 2.5vw;
+  margin-top: -4vw;
+}
+.detail {
+  margin-top: 3vw;
+}
+}
+
+
+/* @media only screen and(min-width:1007px) {
+ul {
+    height: 4vw;
+}
+.products {
+    height: 30vw;
+}
+} */
